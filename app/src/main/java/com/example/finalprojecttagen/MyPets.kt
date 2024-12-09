@@ -56,7 +56,7 @@ class MyPets : AppCompatActivity() {
         }
 
         btn_OuttaHere.setOnClickListener{
-            val backOut = Intent(applicationContext, MyPets::class.java)
+            val backOut = Intent(applicationContext, MainMenu::class.java)
             startActivity(backOut)
         }
     }
